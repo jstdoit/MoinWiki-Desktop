@@ -1,0 +1,364 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A2FB2D21509F8DD005F1FFC /* moin in Resources */ = {isa = PBXBuildFile; fileRef = 4A2FB2D11509F8DD005F1FFC /* moin */; };
+		4A2FB2DF1509FAE3005F1FFC /* MWUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A2FB2DE1509FAE3005F1FFC /* MWUtils.m */; };
+		4A7A45DE1507336900A3A78C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A7A45DD1507336900A3A78C /* Cocoa.framework */; };
+		4A7A45E81507336900A3A78C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A45E61507336900A3A78C /* InfoPlist.strings */; };
+		4A7A45EA1507336900A3A78C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A45E91507336900A3A78C /* main.m */; };
+		4A7A45EE1507336900A3A78C /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A45EC1507336900A3A78C /* Credits.rtf */; };
+		4A7A45F11507336900A3A78C /* MoinWikiAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A45F01507336900A3A78C /* MoinWikiAppDelegate.m */; };
+		4A7A45F41507336900A3A78C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A7A45F21507336900A3A78C /* MainMenu.xib */; };
+		4A7A460C1507450A00A3A78C /* UKLoginItemRegistry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A460A1507450A00A3A78C /* UKLoginItemRegistry.m */; };
+		4A7A460F1507460D00A3A78C /* LoginItemsAE.c in Sources */ = {isa = PBXBuildFile; fileRef = 4A7A460D1507460D00A3A78C /* LoginItemsAE.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A2FB2D11509F8DD005F1FFC /* moin */ = {isa = PBXFileReference; lastKnownFileType = folder; path = moin; sourceTree = "<group>"; };
+		4A2FB2DD1509FAE3005F1FFC /* MWUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWUtils.h; sourceTree = "<group>"; };
+		4A2FB2DE1509FAE3005F1FFC /* MWUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWUtils.m; sourceTree = "<group>"; };
+		4A7A45D91507336900A3A78C /* MoinWiki.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoinWiki.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A7A45DD1507336900A3A78C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		4A7A45E01507336900A3A78C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		4A7A45E11507336900A3A78C /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A7A45E21507336900A3A78C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A7A45E51507336900A3A78C /* MoinWiki-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MoinWiki-Info.plist"; sourceTree = "<group>"; };
+		4A7A45E71507336900A3A78C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A7A45E91507336900A3A78C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A7A45EB1507336900A3A78C /* MoinWiki-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MoinWiki-Prefix.pch"; sourceTree = "<group>"; };
+		4A7A45ED1507336900A3A78C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		4A7A45EF1507336900A3A78C /* MoinWikiAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MoinWikiAppDelegate.h; sourceTree = "<group>"; };
+		4A7A45F01507336900A3A78C /* MoinWikiAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MoinWikiAppDelegate.m; sourceTree = "<group>"; };
+		4A7A45F31507336900A3A78C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		4A7A46091507450A00A3A78C /* UKLoginItemRegistry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UKLoginItemRegistry.h; sourceTree = "<group>"; };
+		4A7A460A1507450A00A3A78C /* UKLoginItemRegistry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UKLoginItemRegistry.m; sourceTree = "<group>"; };
+		4A7A460D1507460D00A3A78C /* LoginItemsAE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LoginItemsAE.c; sourceTree = "<group>"; };
+		4A7A460E1507460D00A3A78C /* LoginItemsAE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginItemsAE.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A7A45D61507336900A3A78C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A45DE1507336900A3A78C /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A2FB2D51509F91F005F1FFC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A4617150747E100A3A78C /* UKLoginItem */,
+				4A2FB2DD1509FAE3005F1FFC /* MWUtils.h */,
+				4A2FB2DE1509FAE3005F1FFC /* MWUtils.m */,
+			);
+			name = Class;
+			sourceTree = "<group>";
+		};
+		4A2FB2D61509F93C005F1FFC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A2FB2D11509F8DD005F1FFC /* moin */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4A2FB2D71509F966005F1FFC /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		4A2FB2D81509F970005F1FFC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4A2FB2D91509F97C005F1FFC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A45F21507336900A3A78C /* MainMenu.xib */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		4A7A45CE1507336800A3A78C = {
+			isa = PBXGroup;
+			children = (
+				4A7A45E31507336900A3A78C /* MoinWiki */,
+				4A7A45DC1507336900A3A78C /* Frameworks */,
+				4A7A45DA1507336900A3A78C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A7A45DA1507336900A3A78C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A45D91507336900A3A78C /* MoinWiki.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A7A45DC1507336900A3A78C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A45DD1507336900A3A78C /* Cocoa.framework */,
+				4A7A45DF1507336900A3A78C /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A7A45DF1507336900A3A78C /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A45E01507336900A3A78C /* AppKit.framework */,
+				4A7A45E11507336900A3A78C /* CoreData.framework */,
+				4A7A45E21507336900A3A78C /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		4A7A45E31507336900A3A78C /* MoinWiki */ = {
+			isa = PBXGroup;
+			children = (
+				4A2FB2D91509F97C005F1FFC /* Views */,
+				4A2FB2D81509F970005F1FFC /* Models */,
+				4A2FB2D71509F966005F1FFC /* Controllers */,
+				4A2FB2D61509F93C005F1FFC /* Resources */,
+				4A2FB2D51509F91F005F1FFC /* Class */,
+				4A7A45EF1507336900A3A78C /* MoinWikiAppDelegate.h */,
+				4A7A45F01507336900A3A78C /* MoinWikiAppDelegate.m */,
+				4A7A45E41507336900A3A78C /* Supporting Files */,
+			);
+			path = MoinWiki;
+			sourceTree = "<group>";
+		};
+		4A7A45E41507336900A3A78C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A45E51507336900A3A78C /* MoinWiki-Info.plist */,
+				4A7A45E61507336900A3A78C /* InfoPlist.strings */,
+				4A7A45E91507336900A3A78C /* main.m */,
+				4A7A45EB1507336900A3A78C /* MoinWiki-Prefix.pch */,
+				4A7A45EC1507336900A3A78C /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A7A4617150747E100A3A78C /* UKLoginItem */ = {
+			isa = PBXGroup;
+			children = (
+				4A7A460E1507460D00A3A78C /* LoginItemsAE.h */,
+				4A7A460D1507460D00A3A78C /* LoginItemsAE.c */,
+				4A7A460A1507450A00A3A78C /* UKLoginItemRegistry.m */,
+				4A7A46091507450A00A3A78C /* UKLoginItemRegistry.h */,
+			);
+			name = UKLoginItem;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A7A45D81507336900A3A78C /* MoinWiki */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A7A45F71507336900A3A78C /* Build configuration list for PBXNativeTarget "MoinWiki" */;
+			buildPhases = (
+				4A7A45D51507336900A3A78C /* Sources */,
+				4A7A45D61507336900A3A78C /* Frameworks */,
+				4A7A45D71507336900A3A78C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MoinWiki;
+			productName = MoinWiki;
+			productReference = 4A7A45D91507336900A3A78C /* MoinWiki.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A7A45D01507336900A3A78C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = BTBU;
+			};
+			buildConfigurationList = 4A7A45D31507336900A3A78C /* Build configuration list for PBXProject "MoinWiki" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A7A45CE1507336800A3A78C;
+			productRefGroup = 4A7A45DA1507336900A3A78C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A7A45D81507336900A3A78C /* MoinWiki */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A7A45D71507336900A3A78C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A45E81507336900A3A78C /* InfoPlist.strings in Resources */,
+				4A7A45EE1507336900A3A78C /* Credits.rtf in Resources */,
+				4A7A45F41507336900A3A78C /* MainMenu.xib in Resources */,
+				4A2FB2D21509F8DD005F1FFC /* moin in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A7A45D51507336900A3A78C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A7A45EA1507336900A3A78C /* main.m in Sources */,
+				4A7A45F11507336900A3A78C /* MoinWikiAppDelegate.m in Sources */,
+				4A7A460C1507450A00A3A78C /* UKLoginItemRegistry.m in Sources */,
+				4A7A460F1507460D00A3A78C /* LoginItemsAE.c in Sources */,
+				4A2FB2DF1509FAE3005F1FFC /* MWUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A7A45E61507336900A3A78C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7A45E71507336900A3A78C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A7A45EC1507336900A3A78C /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7A45ED1507336900A3A78C /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		4A7A45F21507336900A3A78C /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A7A45F31507336900A3A78C /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A7A45F51507336900A3A78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4A7A45F61507336900A3A78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4A7A45F81507336900A3A78C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoinWiki/MoinWiki-Prefix.pch";
+				INFOPLIST_FILE = "MoinWiki/MoinWiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A7A45F91507336900A3A78C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MoinWiki/MoinWiki-Prefix.pch";
+				INFOPLIST_FILE = "MoinWiki/MoinWiki-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A7A45D31507336900A3A78C /* Build configuration list for PBXProject "MoinWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7A45F51507336900A3A78C /* Debug */,
+				4A7A45F61507336900A3A78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A7A45F71507336900A3A78C /* Build configuration list for PBXNativeTarget "MoinWiki" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A7A45F81507336900A3A78C /* Debug */,
+				4A7A45F91507336900A3A78C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A7A45D01507336900A3A78C /* Project object */;
+}
